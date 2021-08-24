@@ -23,11 +23,12 @@
 </head>
 
 <script>
-    nome = window.prompt('Qual o seu nome?')
-    document.write (`${nome}`)
-    document.write (`Parabéns, keep always studying and smiling.`)
+    nome = window.prompt('Escreva seu nome?')
+    var str_texto = (`${nome}`)
+    document.write(str_texto.toUpperCase())
+    document.write (` ---> Parabéns, keep always studying and smiling.`)
 </script>
 <body>
-    <img src="smile.jpg" alt="Studying" width="300" height="400">
+    <img src="smile.jpg" alt="Studying" width="200" height="300">
 </body>
 </html>
