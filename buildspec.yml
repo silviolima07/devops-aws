@@ -15,7 +15,7 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...
       - docker build -t devops-aws .
-      - docker tag devops:latest 301004227072.dkr.ecr.us-east-1.amazonaws.com/devops-aws:latest
+      - docker tag devops-aws:latest 301004227072.dkr.ecr.us-east-1.amazonaws.com/devops-aws:latest
   post_build:
     commands:
       - echo Build completed on `date`
